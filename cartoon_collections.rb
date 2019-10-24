@@ -15,9 +15,9 @@ def find_the_cheese(strings)
   
   cheese_types.each do |c|
     if strings.include?(c) == true
-      return c
+      c
     else
-      return nil
+      nil
     end
   end
 end
