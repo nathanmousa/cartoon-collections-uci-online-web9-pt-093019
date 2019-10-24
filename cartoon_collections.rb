@@ -7,7 +7,13 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
+<<<<<<< HEAD
   calls.any? { |c| c.size > 4 }
+=======
+  calls.each do |c|
+    return c.size > 4
+  end
+>>>>>>> fc5d67020daa7ea35fdae45dc4cbb1c4a8018bcf
 end
 
 def find_the_cheese(strings)
